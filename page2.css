@@ -1,0 +1,252 @@
+body{
+    background-image:url(blackbg.jpeg);
+    background-repeat: no-repeat;
+    background-size:2000px;
+}
+
+
+.about{
+    width: 1200px;
+    height: 420px;
+    position: absolute;
+    top: 30px;
+    left: 350px;
+    background:#4d5451;
+    border-radius:15px;
+    border:2px solid lightblue;
+    background-image:url('hacker.jpg');
+    background-repeat: no-repeat;
+    animation-name: change;
+    animation-iteration-count: infinite;
+    animation-duration:10s;
+}
+#title{
+    color: white;
+    position: absolute;
+    left: 33px;
+    font-size: 80px;
+    top: -48px;
+        
+}
+
+
+#hr-style{ /*Fix the hr later !important!important!important!important */
+    color:white;
+    position:absolute;
+    top:82px;
+    z-index:3;
+}
+
+
+.parag{
+    z-index:5;
+    position:absolute;
+    top:110px;
+    left:33px;
+    color:white;
+    font-size:30px
+        
+}
+
+
+#Name{
+    position:absolute;
+    top:150px;
+}
+
+
+#Age{
+    position:absolute;
+    top:190px;
+}
+
+
+#Major{
+    position:absolute;
+    top:230px;
+}
+
+
+
+
+#Loc{
+    position:absolute;
+    top:270px;
+}
+
+#Leb{
+    position:absolute;
+    top:310px;
+}
+
+@keyframes change{
+0% {border-color:green;} 
+25% {border-color:red;}   
+50% {border-color:blue;}   
+75% {border-color:yellow;}
+100% {border-color:cyan;}
+}
+
+
+.Information{
+       width: 400Px;
+    height: 530px;
+    background: Transparent;
+    border-radius: 35px;
+    border:2px solid red;
+    position: absolute;
+    top: 490px;
+    left: 70px
+}
+
+
+
+
+
+.subtitle{
+    font-size:60px;
+    color:white;
+    position:absolute;
+    top:-15px;
+    left:70px;
+    
+}
+
+
+
+
+
+.button-edit{
+    width:400px;
+    height:75px;
+    text-align:center;
+    font-size:40px;
+    background:transparent;
+    position:absolute;
+    top:110px;
+    border-color:transparent;
+    font-family: Consolas;
+    color:cyan;
+   
+    
+}
+
+
+.button-edit:hover{
+    background:transparent;
+    color:white  !important
+    
+}
+
+#Skoul{
+    top:250px;
+}
+
+
+#mini-Skoul{
+top:390px;
+}
+
+
+
+
+
+
+
+
+
+#Experience{
+    position:absolute;
+    left:530px;
+    
+}
+
+
+#Achiev{
+   font-size: 33px;
+    color: white;
+    position: absolute;
+    top: 103px;
+    left: 5px;
+    
+}
+
+
+#achiev-t{ 
+    Font-size: 35px;
+    color: white;
+    position: absolute;
+    top: 240px;
+    left: 21px;
+}
+
+
+
+#chieav-nxg{ 
+       font-size: 32px;
+    color: white;
+    position: absolute;
+    top: 391px;
+    left: 19px;
+}
+
+
+#Projects{
+    left:1000px;
+}
+#proj-h{
+        left: 105px;
+}
+
+#Disc-Bot{
+       top: 77px;
+    left: 59px;
+}
+#ATM{
+      top: 216px;
+    left: 32px;
+    font-size: 52px}
+
+
+#E-com{
+  
+top:358px;
+    left: 48px;
+}
+
+#Skills{
+    left:1500px;
+}
+
+
+#Language-skills{
+       top: 77px;
+    left: 36px;
+    font-size: 50px;
+}
+
+
+
+
+
+#Software-skills
+{
+      top: 216px;
+    left: 32px;
+    font-size: 52px}
+
+
+
+
+#Special-skills{
+    top:358px;
+    left: 48px
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,337 @@
+body{
+    background-image:url(maraheb.png);
+    background-repeat:no-repeat;
+    background-size: 2000px;
+    transition:10s;
+    transition:5s;
+  
+}
+
+
+
+
+body:hover {
+    background-image:url(Particle_Wave_4K_Motion_Background_Loop_AdobeExpress.gif);
+    background-repeat:repeat;
+    transition-duration: 5s;
+    
+}
+
+.Hellothere{
+position:absolute;
+background :  transparent;
+width:400Px;
+height:630px ;
+border-radius:150px;
+border:solid 8px ;
+    top:  150px;
+    left: 178Px;
+box-shadow:0px 0px 30px 10px blue;
+transition:4s;
+font-family:Monospace;
+line-height:2.4;
+font-weight:bold;
+}
+
+.signup-form{
+    position:relative;
+    top:10px;
+    left:80px;
+    background :transparent   ;
+    width:245px;
+    height:75px;
+border-radius:150px;
+text-align:center;
+color:white;
+}
+
+
+#instagram{
+    position:absolute;
+    top:150px;
+    left:0px;
+    background:transparent;
+    width:400px;
+    height:100px;
+    color:transparent;
+    font-size:20px;
+    
+}
+
+
+#insta{
+    width:100px;
+    height:100px;
+    position:absolute;
+    left:41%;
+    top:-1%;
+}
+
+#Twitter{
+      position:absolute;
+    top:300px;
+    left:0px;
+    background:transparent;
+    width:400px;
+    height:100px;
+    color:transparent;
+}
+
+#twit{
+     width:100px;
+    height:100px;
+    position:absolute;
+    left:41%;
+    top:-1%;
+    
+}
+#Linked{
+      position:absolute;
+    top:450px;
+    left:0px;
+    background:transparent;
+    width:400px;
+    height:100px;
+    color:transparent;
+}
+#linkin{
+       width:200px;
+    height:100px;
+    position:absolute;
+    left:28%;
+    top:-1%;
+    transition:2s;
+}
+.Hellothere:hover {
+border:8px solid white;
+transition:4s;
+}
+.Hellothere:hover .signup-form{
+    background:black;
+    color:#1DA1F2;
+    transition:3s;
+    
+}
+
+#leftist {
+    position: absolute;
+    left: 10%;
+    top: -39%;
+    font-size: 4em;
+}
+#rightist{
+    position: absolute;
+    left: 65%;
+    top: -40%;
+    font-size: 4em;
+}
+
+    
+
+
+#leftside{
+    position:absolute;
+    left: 10%;
+    top: -22%;
+}
+
+#rightside{
+    position:absolute;
+       left: 68%;
+    top: -21%;
+}
+#instagram:hover{
+    background:white;
+    transition:1s;
+    color:black;
+    box-shadow:10px 10px black ;
+}
+
+#Twitter:hover{
+    background:white;
+    color:#1DA1F2;
+    box-shadow:10px 10px #1DA1F2 ;
+}
+
+
+#inleft{
+     position:absolute;
+    left: 10%;
+    top: -50%;
+    font-size:4.5em;
+}
+
+
+
+
+#Linked:hover{
+   
+    background :white;
+    color:black;
+    box-shadow:10px 10px black;
+}
+
+#Linked:hover #linkin{
+    transition:1s;
+    left:50%;
+    
+}
+
+
+
+
+
+
+/*Directory */
+
+
+
+
+
+.Directory{
+    position:absolute;
+background :  transparent;
+width:1000px;
+height:630px ;
+border-radius:150px;
+border:solid 8px ;
+    top: 150px;
+    left:621px;
+box-shadow:0px 0px 30px 10px blue;
+
+    
+}
+
+
+.Directory:hover{
+    border:8px solid white;
+transition:4s;
+}
+
+.register{
+    position:absolute;
+    top:150px;
+    left:30px;
+    background:transparent;
+     width:320px;
+   height:85px;
+    transition:2s;
+    border-radius:150px;
+    border:transparent;
+    text-align:center;
+    font-size:2em;
+    color:black;
+}
+
+.register:hover{
+    background:lightgrey;
+    
+}
+
+::placeholder{
+    color:white;
+    font-family:Comic Sans MS;
+}
+
+#username{
+     top:150px;
+  left:80px;
+  box-shadow:10px 10px blue;
+}
+
+#password{
+    top:150px;
+  left:550px;
+   box-shadow:10px 10px 0 0 blue;
+}
+
+#welcome{
+       color: white;
+    text-align: center;
+    font-size: 2.7em;
+    transition: 2s;
+    position: absolute;
+    top: -16%;
+    left: 90px;
+
+}
+
+#welcomediv:hover #welcome {
+    color:#2afeb7;
+        transition:2s;
+}
+
+
+#welcomediv{
+       position: absolute;
+    top: 8px;
+    box-shadow:10px 10px White;
+    left: 368px;
+    
+}
+
+
+
+
+
+
+
+
+
+.takeme{
+   width:320px;
+   height:85px;
+   
+   border-radius:150px;
+   position:absolute;
+    top:450px;   
+    left:80px;
+    background:transparent;
+    color:white;
+    box-shadow:10px 10px #2afeb7;
+    transition:2s;
+}
+
+.takeme:hover{
+background:beige;
+transition:2s
+
+}
+
+.takeme:hover #CV{
+    color:#2afeb7;
+    transition:2s}
+
+    #CV{
+      font-size: 4em;
+    position: absolute;
+    top: -40px;
+    left: 108px;transition:2s;
+ 
+}
+
+.Schedule{
+       width:320px;
+   height:85px;
+   background:transparent;
+   border-radius:150px;
+   position:absolute;
+    top:450px;   
+    left:550px;
+  border-color: transparent;
+    box-shadow:10px 10px #2afeb7;
+    text-align:center;
+     color:white;
+    transition:2s;
+}
+
+.Schedule:hover{
+    background:beige;
+    transition:2s;
+    color:#2afeb7;
+}
+
+
+
+
+    

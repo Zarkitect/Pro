@@ -1,0 +1,113 @@
+body{
+    background-image:url('bg.png');
+}
+
+
+#Big-Title{
+    font-size:70px;
+    color:white;
+    font-family: Tahoma;
+    text-align:center;
+}
+#time-img{
+    width:300px;
+    height:300px;
+}
+
+.day{
+    width:350px;
+    height:500px;
+    left:200px;
+    border-color:red;
+    background:white;
+    border-radius:45px;
+    position:absolute;
+    top:300px;
+}
+#tuesday{
+    left:600px;
+}
+
+#thursday{
+    left:1000px;
+}
+
+#Friday{
+    left:1400px;
+}
+
+.whatday{
+    text-align:center;
+    font-family: Tahoma;
+}
+#rob{
+    position:absolute;
+    top:150px;
+    margin-left:10px;
+}
+#calc{
+    position: absolute;
+    font-size: 30px;
+    top: 152px;
+    left: 197px;
+}
+#robt{
+    position:absolute;
+    top:300px;
+    margin-left:10px;
+}
+#Mob{
+       position: absolute;
+    top: 297px;
+    left: 197px;
+    font-size: 34px;
+}
+
+
+
+
+#lmm{
+    position:absolute;
+    top:80px;
+    
+}
+#it{
+        position:absolute;
+        top:80px; left:190px;
+
+}
+
+#mml{
+        position:absolute;
+        top:150px;
+
+}
+
+
+#MAT{
+         position: absolute;
+    top: 157px;
+    left: 174px;
+    font-size: 25px;
+}
+#comp{
+    position:absolute;
+    top:250px;
+}
+
+#net{
+position: absolute;
+    top: 267px;
+    left: 173px;
+    font-size: 20px;
+}
+#Tht{
+        position:absolute;
+        top:350px;
+}
+
+#PLP{
+    position:absolute;
+    top:350px;
+    left:160px;
+}
