@@ -18,11 +18,50 @@ body{
     width:350px;
     height:500px;
     left:200px;
-    border-color:red;
-    background:white;
+    background:#eeeee4;
     border-radius:45px;
     position:absolute;
     top:300px;
+    border:3px solid cyan;
+    box-shadow:0 0 10px 10px blue;
+    animation-name:dance;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+}
+
+@keyframes dance{
+    25% {border-color:red; box-shadow: 0 0 10px 10px cyan;}
+    50%{border-color:blue; box-shadow: 0 0 10px 10px green;}
+    75%{border-color:white; box-shadow: 0 0 10px 10px white;}
+}
+.butt{
+   width:0px !important;
+   height:0px!important;
+   padding:0px;
+   border-width:0px;
+}
+.show{
+   background:transparent;
+}
+#home-but{
+position: absolute;
+    top: 183px;
+    left: 47px;
+    width: 30px;
+    height: 30px;
+}
+#book{
+     position: absolute;
+    top: 187px;
+    left: 91px;
+    width: 30px;
+    height: 30px;
+}
+.zi7{
+    border:2px solid cyan;
 }
 #tuesday{
     left:600px;
@@ -110,4 +149,10 @@ position: absolute;
     position:absolute;
     top:350px;
     left:160px;
+}
+
+
+#hana{
+    width:300px;
+    height:300px;
 }

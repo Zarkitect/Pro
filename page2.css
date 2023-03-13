@@ -4,6 +4,48 @@ body{
     background-size:2000px;
 }
 
+.hring{
+     
+     position:relative;
+     top:100PX;
+       animation-name:hello;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+animation-fill-mode: both;
+animation-direction: alternate;
+animation-delay:2s;
+}
+
+@keyframes hello{
+      0% {  border :3px solid cyan;}
+        25% {  border: 3px solid blue;}
+    50% {  border: 3px solid white;}
+    75% {  border: 3px solid red;}
+    99%{  border: 3px solid green  ;}
+
+}
+.download-div{
+    width:250px;
+    height:30px;
+    position:absolute;
+    border-radius:30px;
+    border:2px solid cyan;
+top:300px;
+right:40px;
+text-align:center;
+box-shadow: 0 0 10px 10px blue;
+}  
+#div2{
+    top:230px;
+}
+#div1{
+    top:175px;
+}
+.Download-Cv{
+    color:white;
+font-family: Tahoma;
+font-size:20px;
+}
 
 .about{
     width: 1200px;
@@ -14,6 +56,7 @@ body{
     background:#4d5451;
     border-radius:15px;
     border:2px solid lightblue;
+    box-shadow:0 0 10px 10px white;
     background-image:url('hacker.jpg');
     background-repeat: no-repeat;
     animation-name: change;
@@ -30,12 +73,7 @@ body{
 }
 
 
-#hr-style{ /*Fix the hr later !important!important!important!important */
-    color:white;
-    position:absolute;
-    top:82px;
-    z-index:3;
-}
+
 
 
 .parag{
@@ -93,14 +131,28 @@ body{
     height: 530px;
     background: Transparent;
     border-radius: 35px;
-    border:2px solid red;
+    
     position: absolute;
     top: 490px;
-    left: 70px
+    left: 70px;
+    animation-name:dancewo;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+animation-fill-mode: both;
+animation-direction: alternate;
+animation-delay:2s;
+
+    
 }
+@keyframes dancewo{
+    0% {box-shadow:0 0 10px 10px cyan;}
+        25% {box-shadow:0 0 10px 10px blue;}
+    50% {box-shadow:0 0 10px 10px white;}
+    75% {box-shadow:0 0 10px 10px red;}
+    99%{box-shadow:0 0 10px 10px green;}
 
 
-
+}
 
 
 .subtitle{
@@ -126,16 +178,13 @@ body{
     top:110px;
     border-color:transparent;
     font-family: Consolas;
-    color:cyan;
-   
-    
+    color:white;
 }
 
 
 .button-edit:hover{
-    background:transparent;
+    background:cyan;
     color:white  !important
-    
 }
 
 #Skoul{

@@ -6,9 +6,14 @@ body{
     transition:5s;
   
 }
+button{
+    padding:0px;
+    border-width: 0px;
+}
 
-
-
+.form{
+    color:transparent;
+}
 
 body:hover {
     background-image:url(Particle_Wave_4K_Motion_Background_Loop_AdobeExpress.gif);
@@ -32,7 +37,6 @@ font-family:Monospace;
 line-height:2.4;
 font-weight:bold;
 }
-
 .signup-form{
     position:relative;
     top:10px;
@@ -55,6 +59,7 @@ color:white;
     height:100px;
     color:transparent;
     font-size:20px;
+    transition:1s;
     
 }
 
@@ -75,6 +80,7 @@ color:white;
     width:400px;
     height:100px;
     color:transparent;
+    transition:1s;
 }
 
 #twit{
@@ -107,7 +113,7 @@ border:8px solid white;
 transition:4s;
 }
 .Hellothere:hover .signup-form{
-    background:black;
+    background:white ;
     color:#1DA1F2;
     transition:3s;
     
@@ -151,6 +157,7 @@ transition:4s;
     background:white;
     color:#1DA1F2;
     box-shadow:10px 10px #1DA1F2 ;
+    TRANSITION:1S;
 }
 
 
@@ -303,10 +310,11 @@ transition:2s
     transition:2s}
 
     #CV{
-      font-size: 4em;
+         font-size: 4em;
     position: absolute;
-    top: -40px;
-    left: 108px;transition:2s;
+    top: -25px;
+    left: 108px;
+    transition: 2s;
  
 }
 
