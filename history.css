@@ -1,0 +1,124 @@
+.Container-His{
+    height:100vh;
+    width:auto;
+    background-image:linear-gradient(to right, magenta, cyan);
+    position:absolute;
+    inset:0;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    overflow-y: hidden;
+}
+
+.Row-1{
+    display:flex;
+    flex-direction: row;
+    gap:5%;
+    margin-left:10%;
+}
+
+.row-2{
+    display:flex;
+    flex-direction: row;
+    gap:5%;
+margin-left:23%;
+margin-top:5%;
+}
+    
+
+.Quiz-Template:hover{
+    transition:0.5s;
+}
+
+
+.Quiz-Template:hover .question{
+    color:red;
+    transition:2s;
+}
+
+
+
+.Quiz-Template{
+    height: 40vh;
+    width:40vh;
+    background:beige;
+    position:relative;
+    top:5%;
+    
+    border:2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, magenta, cyan);
+}
+
+
+.question{
+font-size:30px;
+margin-left:5%;
+}
+
+
+
+.answers-Container{
+    width: 100%;
+    height: 23%;
+    position: relative;
+    font-size:40px;
+    left:5%;
+    bottom: 0%;
+}
+
+
+input{
+cursor:pointer;
+}
+
+
+#Submit{
+    width:10%;
+    height:5%;
+    position:absolute;
+    right:10%;
+    bottom:19%;
+    border:3px solid cyan;
+    background:lightgreen;
+border-radius:15px;
+cursor:pointer;
+font-size:20px;
+font-family: 'Courier New', Courier, monospace;
+}
+
+.shake{
+    animation-name:shakewrong;
+    animation-duration:0.4s;
+    animation-delay:0s;
+    animation-iteration-count:1;
+}
+
+@keyframes shakewrong{
+    10%{transform:translateX(-3%); background-color: crimson; border:0px;}
+    50%{transform:translateX(3%);background-color: crimson;border:0px;}
+    75%{transform:translateX(-3%);background-color: crimson;border:0px;}
+    100%{transform:translateX(3%);background-color: crimson;border:0px;} 
+}
+
+.p-container{
+    width:250px;
+    height:30px;
+    background:white;
+    color:black;
+    border-radius:15px;
+    text-align:center;
+    position: absolute;
+    right:10%;
+    bottom:14%;
+    vertical-align: auto;
+}
+
+
+
+
+
+#You-Scored-Test{
+    position: relative;
+    top:-20%;
+}

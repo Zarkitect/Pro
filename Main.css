@@ -1,0 +1,68 @@
+.Container
+{
+    height:100vh;
+    position: fixed;
+    inset:0;
+    background-image:linear-gradient(to right, magenta, cyan);
+    overflow: hidden; 
+
+}
+
+
+.Quiz-Container{
+    width:30%;
+    height:70%;
+    background:white;
+    position:absolute;
+    top:20%;
+    left: 35%;
+    border-radius:30%;
+    align-items: center;
+}
+#Choose{
+    text-align:center;
+    position: inherit;
+    color:black;
+    top:5%;
+left:20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:100;
+    font-size:40px;
+}
+
+
+button:hover{
+    background-color: aquamarine;
+}
+
+    button{
+    position:relative;
+    width:50%;
+    height:10%;
+    top:20%;
+    left:25%;
+    margin-top:50px;
+    font-size:100%;
+    border:3px solid;
+    border-image-slice:1;
+    border-image-source:linear-gradient(to right, magenta, cyan);
+    box-shadow:0 0 10px 10px  grey;
+    cursor:pointer;
+}
+
+#get-id{
+    position:relative;
+    top:90%;
+    z-index:30; 
+}
+
+
+#identification{
+    position:relative;
+    bottom:-20%;
+    left:20%;
+
+}
+
+
+
