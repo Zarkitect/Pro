@@ -4,23 +4,29 @@ body{
     background-size: 2000px;
     transition:10s;
     transition:5s;
+    
   
 }
 button{
     padding:0px;
     border-width: 0px;
-}
+    cursor :pointer;
+}   
 
 .form{
     color:transparent;
+    cursor:pointer;
 }
 
 body:hover {
-    background-image:url(Particle_Wave_4K_Motion_Background_Loop_AdobeExpress.gif);
+    background-image:url(Newbg.gif);
     background-repeat:repeat;
     transition-duration: 5s;
-    
+    background-position: top;
 }
+
+   
+
 
 .Hellothere{
 position:absolute;
@@ -236,7 +242,7 @@ transition:4s;
 }
 
 ::placeholder{
-    color:white;
+    color:black;
     font-family:Comic Sans MS;
 }
 
@@ -288,13 +294,13 @@ transition:4s;
 .takeme{
    width:320px;
    height:85px;
-   
+   cursor:pointer;
    border-radius:150px;
    position:absolute;
     top:450px;   
     left:80px;
     background:transparent;
-    color:white;
+    color:black;
     box-shadow:10px 10px #2afeb7;
     transition:2s;
 }
@@ -306,7 +312,7 @@ transition:2s
 }
 
 .takeme:hover #CV{
-    color:#2afeb7;
+    color:black;
     transition:2s}
 
     #CV{
@@ -321,6 +327,7 @@ transition:2s
 .Schedule{
        width:320px;
    height:85px;
+   cursor:pointer;
    background:transparent;
    border-radius:150px;
    position:absolute;
@@ -329,17 +336,28 @@ transition:2s
   border-color: transparent;
     box-shadow:10px 10px #2afeb7;
     text-align:center;
-     color:white;
+     color:black;
     transition:2s;
 }
 
 .Schedule:hover{
     background:beige;
     transition:2s;
-    color:#2afeb7;
+    color:black;
 }
 
-
+#take-mid{
+   Width: 200px;
+    height: 39px;
+    position: absolute;
+    bottom: 101px;
+    left: 915px;
+    font-size: 20px;
+    background:transparent;
+    border:3px solid black;
+    border-radius:10px;
+    box-shadow:0 0 10px 10px blue;
+}
 
 
     
